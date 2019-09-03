@@ -88,6 +88,7 @@ DOCKER_CONFIG_KEYS = [
     'env_file',
     'environment',
     'extra_hosts',
+    'gpus',
     'group_add',
     'hostname',
     'healthcheck',

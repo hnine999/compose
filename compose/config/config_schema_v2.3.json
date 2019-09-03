@@ -267,6 +267,7 @@
         "privileged": {"type": "boolean"},
         "read_only": {"type": "boolean"},
         "restart": {"type": "string"},
+        "gpus": {"type": ["number", "string"]},
         "runtime": {"type": "string"},
         "scale": {"type": "integer"},
         "security_opt": {"$ref": "#/definitions/list_of_strings"},
